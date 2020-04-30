@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Example Page</title>
+<style>
+body, ul, li, h1, h2, a{
+	margin:0;
+	padding:0;
+}
+header{
+	background-color: red;
+	color:white;
+	text-align:center;
+	position:fixed;
+	width:100%;
+	top:0;
+	left:0;
+	right:10px;
+	z-index:1;
+	padding:15px 0px;
+}
+h1{
+	border:6px solid white;
+	border-radius:40px;
+	display:inline-block;
+	padding:10px 10px;
+}
+.bigpicture{
+	position:relative;
+}
+.bigpicture img{
+	width:100%;
+	padding:120px 0px 0px 0px;
+	
+}
+.bigpicture .welcome{ 
+	background-color:red;
+	color:white;
+	position:absolute;
+	top:40%;
+	
+	
+}
+.bigpicture h2{
+	padding:8px 10px;
+	font-weight:30px;
+	font-size:35px;
+	
+}
+nav{
+	background-color:#BABABA;
+	color:black;
+	padding:20px 20px 20px 0px;
+	position:sticky;
+	top:99px;
+		
+}
+nav ul{
+	white-space:nowrap;
+	margin: 0 auto;
+	max-width:1200px;
+}
+nav li{
+	font-family:Courier New;
+	font-size:23px;
+	display:inline-block;
+	width:25%;
+	
+}
+nav li a{
+	text-decoration:none;
+	color:black;
+	font-weight:40px;
+}
+
+main{
+	max-width:100%;
+	width:1200px;
+	margin:80px auto;
+	padding:0 40px;
+	box-sizing:border-box;
+
+}
+article h2{
+	color:crimson;
+	font-size:43px;
+}
+article p{
+	line-height:2em;
+}
+.images{
+	text-align:center;
+	margin:80px 0;
+	white-space:nowrap;
+}
+.images li{
+	display:inline-block;
+	width:40%;
+	margin:20px 5%;
+}
+.images li img{
+	max-width:100%;
+}
+
+.join{
+	background-color:#DEDEDE;
+	color:black;
+	text-align:center;
+	padding:20px 20px;
+}
+
+form input{
+	border-radius:25px;
+	border:2px solid black;
+	padding:4px;
+	margin:4px;
+}
+form input:focus{
+	border:3px solid lightblue;
+	outline:none;
+}
+
+footer{
+	text-align:center;
+	padding:6px;
+	background-color:#F84B4B;
+	color:white;
+}
+nav li a:hover{
+	text-decoration:underline;
+	background-color:lightgrey;
+	color:white;
+}
+.images li:hover{
+	position:relative;
+	top:-6px;
+}
+
+
+
+</style>
+</head>
+<body>
+<header>
+<h1>Tom & Jerry Club</h1>
+</header>
+<section class="bigpicture">
+<img src="tj2.jpg" alt="tom and jerry photo">
+<div class="welcome">
+<h2>Welcome to<br>Tom & Jerry<br>Club</h2>
+</div>
+</section>
+<nav>
+<ul>
+<li><a href="file:///C:/Users/hp/Desktop/expp.html">Join Club</a></li>
+<li><a href="file:///C:/Users/hp/Desktop/expp.html">Latest News</a></li>
+<li><a href="file:///C:/Users/hp/Desktop/expp.html">New Games</a></li>
+<li><a href="file:///C:/Users/hp/Desktop/expp.html">Contact Us</a></li>
+</ul>
+</nav>
+<main>
+<article>
+<h2>Hello There!</h2>
+<p>Tom and Jerry is an American animated franchise and series of comedy short films created in 1940 by William Hanna and Joseph Barbera. Best known for its 161 theatrical short films by Metro-Goldwyn-Mayer, the series centers on a friendship/rivalry between the title characters Tom, a cat, and Jerry, a mouse.Tom (named "Jasper" in his debut appearance) is a grey and white mute domestic shorthair cat. ("Tom" is a generic name for a male cat.) He is usually but not always, portrayed as living a comfortable, or even pampered life, while Jerry (named "Jinx" in his debut appearance) is a small, brown mute, house mouse who always lives in close proximity to Tom. Despite being very energetic, determined and much larger, Tom is no match for Jerry's wits. Jerry also possesses surprising strength for his size, approximately the equivalent of Tom's, lifting items such as anvils with relative ease and withstanding considerable impacts. Although cats typically chase mice to eat them, it is quite rare for Tom to actually try to eat Jerry, but only to hurt or compete with him as usual in a more intimidating strategy to just taunt Jerry (even as revenge), and even to obtain a reward from a human (including his owner(s)/master(s)) for catching Jerry, or for generally doing his job greatly as a house cat. By the final "fade-out" of each cartoon, Jerry usually gets the best of Tom.</p>
+</article>
+<ul class="images">
+<li><img src="fafaf.jpg" alt="tom pic"></li>
+<li><img src="finall.png" alt="tom pic 2"></li>
+</ul>
+</main>
+<section class="join">
+<h2>Join Us Today!</h2><br>
+<p>Type your email & Press Enter Key</p>
+<form>
+<label for="email">Email:</label>
+<input type="email" name="email" placeholder="email address">
+</form>
+</section>
+<footer>
+<p>Copyright 2020 Tom & Jerry Club</p>
+</footer>
+
+</body>
+</html>
